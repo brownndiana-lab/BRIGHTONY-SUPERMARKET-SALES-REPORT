@@ -10,6 +10,27 @@ Kaggle dataset
 
 ### TOOLS
 
-Powerbi desktop
+Powerbi desktop ((data cleaning, analysis, dashboard design, data visualisation and report)[Download here](https//powerbi.com)
 
 ### DATA CLEANING AND PREPARATION
+
+#### The dataset was sourced from Brightony’s sales transaction records and prepared using Power Query in Power BI Desktop. Key cleaning steps included:
+
+- ##### Field selection:
+Retained only relevant columns (Sales, Profit, Orders, Customers, Category, Region, City, Age, Gender, Date).
+
+- ##### Standardization: 
+Corrected data types, standardized regions and categories, and validated city names.
+
+- ##### Demographic grouping: 
+Organized customers into defined age groups and standardized gender records.
+
+- ##### Date hierarchy: 
+Extracted Month, Quarter, and Year for time-based analysis.
+
+- ##### Derived metrics:
+Calculated Profit Margin, Average Order Value (AOV), and Customer Lifetime Value (CLV).
+
+- ##### Data integrity:
+Handled missing or inconsistent values to ensure accuracy.
+
